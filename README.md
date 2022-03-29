@@ -1,3 +1,6 @@
+//Trabalho de Química (Instruções)
+//Chemistry work (Instructions)
+
 ###########PORTUGUESE##############
 
 Leia este documento caso esteja com dúvidas de como visualizar/salvar o site em sua máquina.

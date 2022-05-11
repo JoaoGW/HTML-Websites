@@ -1,5 +1,5 @@
-//Trabalho de Química (Instruções)
-//Chemistry work (Instructions)
+//Para o Trabalho de Química (Instruções)
+//For Chemistry work (Instructions)
 
 ###########PORTUGUESE##############
 

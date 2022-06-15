@@ -1,0 +1,22 @@
+body{
+    background: #EDEDED;
+}
+
+em strong{
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-family: Nuosu SIL;
+}
+
+h1{
+    text-align: center; 
+    background: #bdbdbd; 
+    color: #000000;
+}
+
+#p-missao {
+    font-size: 20px;
+}

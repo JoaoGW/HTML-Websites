@@ -50,19 +50,6 @@ h2{
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 15%;
-}
-
-.item{
-    font-style: italic;
-    text-align: center;
-    font-family: Nuosu SIL;
-    font-size: 14px;
-    padding: 20px;
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
 }
 
 .barbimg{

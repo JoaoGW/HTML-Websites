@@ -6,6 +6,10 @@ em strong{
     color: red;
 }
 
+#img-principal{
+    width: 100%; 
+}
+
 p {
     text-align: center;
     font-family: Nuosu SIL;
@@ -14,7 +18,8 @@ p {
 h1{
     text-align: center; 
     background: #bdbdbd; 
-    color: #000000;
+    color: black;
+    border: 30px solid black;
 }
 
 #p-missao {

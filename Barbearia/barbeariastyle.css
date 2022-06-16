@@ -1,4 +1,4 @@
-cabecalho{
+.cabecalho{
     font-family: Fascinate;
     font-size: 25px;
     margin-left: 15px;
@@ -27,6 +27,8 @@ h2{
     background: #bdbdbd; 
     color: black;
     border: 15px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: 10px;
     margin-left: 10px;
 }
@@ -41,13 +43,10 @@ h2{
 }
 
 .beneficios{
+    text-align: center;
     font-family: Nuosu SIL;
     font-size: 14px;
-    text-align: center;
     padding: 20px;
-}
-
-.listabeneficios{
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -56,6 +55,14 @@ h2{
 
 .item{
     font-style: italic;
+    text-align: center;
+    font-family: Nuosu SIL;
+    font-size: 14px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
 .barbimg{

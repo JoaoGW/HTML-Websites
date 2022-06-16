@@ -1,3 +1,9 @@
+cabecalho{
+    font-family: Fascinate;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
 body{
     background: #EDEDED;
 }
@@ -13,15 +19,45 @@ em strong{
 p {
     text-align: center;
     font-family: Nuosu SIL;
+    font-size: 14px;
 }
 
-h1{
+h2{
     text-align: center; 
     background: #bdbdbd; 
     color: black;
-    border: 30px solid black;
+    border: 15px solid black;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.principal{
+    background: #B2B2B2;
+    padding: 20px;
 }
 
 #p-missao {
     font-size: 20px;
+}
+
+.beneficios{
+    font-family: Nuosu SIL;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+.listabeneficios{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.item{
+    font-style: italic;
+}
+
+.barbimg{
+    width: 50%;
 }

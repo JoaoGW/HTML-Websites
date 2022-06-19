@@ -55,3 +55,9 @@ h2{
 .barbimg{
     width: 50%;
 }
+
+.textos{
+    text-align: center;
+    font-family: Nuosu SIL;
+    font-size: 14px;
+}

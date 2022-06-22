@@ -1,5 +1,5 @@
 .cabecalho{
-    font-family: Fascinate;
+    font-family: 'Fascinate';
     font-size: 25px;
     margin-left: 15px;
 }
@@ -18,8 +18,8 @@ em strong{
 
 p {
     text-align: center;
-    font-family: Nuosu SIL;
-    font-size: 14px;
+    font-family: 'Nuosu SIL';
+    font-size: 17px;
 }
 
 h2{
@@ -39,12 +39,12 @@ h2{
 }
 
 #p-missao {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .beneficios{
     text-align: center;
-    font-family: Nuosu SIL;
+    font-family: 'Nuosu SIL';
     font-size: 14px;
     padding: 20px;
     display: inline-block;
@@ -58,6 +58,6 @@ h2{
 
 .textos{
     text-align: center;
-    font-family: Nuosu SIL;
-    font-size: 14px;
+    font-family: 'Nuosu SIL';
+    font-size: 20px;
 }

@@ -1,5 +1,5 @@
 header{
-    background: #BBBBBB;
+    background: darkgoldenrod;
     padding: 20px 0;
 }
 
@@ -26,4 +26,43 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: darkgoldenrod;
+    border-width: 2px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-radius: 18px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+.produto-descricao {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.produto-preco {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    margin: 10px 0 0;
 }

@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -49,6 +54,24 @@ nav a{
     border-radius: 18px;
 }
 
+.produtos li:hover{
+    border-color: darkgoldenrod;
+    border-style: dashed;
+}
+
+.produtos li:active{
+    border-color: black;
+    border-style: dashed;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos li:hover .produto-preco{
+    font-size: 28px;
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -65,4 +88,16 @@ nav a{
     font-weight: bold;
     font-family: 'Libre Baskerville', serif;
     margin: 10px 0 0;
+}
+
+footer{
+    background: url("./imagens/bg.jpg");
+    text-align: center;
+    padding: 40px 0 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }

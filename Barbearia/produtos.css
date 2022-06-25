@@ -57,6 +57,7 @@ nav a:hover {
 .produtos li:hover{
     border-color: darkgoldenrod;
     border-style: dashed;
+    cursor: pointer;
 }
 
 .produtos li:active{

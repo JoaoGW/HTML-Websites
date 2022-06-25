@@ -78,10 +78,26 @@ form label, form legend{
 .enviar:hover{
     color: white;
     font-family: 'League Gothic', sans-serif;;
-    background: orangered;
+    background: orange;
     font-size: 20px;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(5deg) rotate(-5deg);
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
 
 footer{

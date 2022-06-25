@@ -117,12 +117,21 @@
           >
         </fieldset>
 
+        <fieldset>
+          <legend>Data de Atendimento</legend>
+          <!--Pegando a informação: Data de Atendimento do Usuário-->
+          <label for="nascimento"
+            >(Consulte horário de funcionamento na tabela abaixo!)</label
+          >
+          <input type="date" id="nascimento" class="input-padrao" required />
+        </fieldset>
+
         <fieldset class="horario">
           <legend>Qual o horário prefere ser atendido em nossa Unidade?</legend>
           <select>
             <option>Manhã (08:00 às 12:00)</option>
             <option>Tarde (12:00 às 16:30)</option>
-            <option>Final da Tarde (16:30 às 18:00)</option>
+            <option>Fim de Tarde (16:30 às 18:00)</option>
             <option>Noite (18:00 às 21:30)</option>
           </select>
         </fieldset>
@@ -144,6 +153,45 @@
         <!--Enviar as informações fornecidas pelo Usuário-->
         <input class="enviar" type="submit" value="Enviar Formulário" />
       </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda-Feira</td>
+            <td>Fechado</td>
+          </tr>
+          <tr>
+            <td>Terça-Feira</td>
+            <td>08:00h às 21:30h</td>
+          </tr>
+          <tr>
+            <td>Quarta-Feira</td>
+            <td>08:00h às 21:30h</td>
+          </tr>
+          <tr>
+            <td>Quinta-Feira</td>
+            <td>08:00h às 21:30h</td>
+          </tr>
+          <tr>
+            <td>Sexta-Feira</td>
+            <td>08:00h às 21:30h</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>08:00h às 21:30h</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>08:00h às 21:30h</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
   </body>
 

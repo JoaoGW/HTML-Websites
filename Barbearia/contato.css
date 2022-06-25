@@ -70,7 +70,7 @@ form label, form legend{
     border-color: darkgoldenrod;
     font-family: 'League Gothic', sans-serif;
     color: black;
-    transition: 1s background;
+    transition: 1s all;
 }
 
 .enviar :hover{
@@ -79,6 +79,7 @@ form label, form legend{
     background: orangered;
     font-size: 20px;
     cursor: pointer;
+    transform: rotate(5deg) rotate(-5deg) scale(1.1);
 }
 
 footer{

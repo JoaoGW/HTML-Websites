@@ -13,7 +13,9 @@
     <header>
       <div class="caixa">
         <h1>
-          <a href="barbearia.html"><img src="./imagens/logo.png" /></a>
+          <a href="barbearia.html"
+            ><img src="./imagens/logo.png" alt="Logo - Barbearia do Jão"
+          /></a>
         </h1>
         <nav>
           <ul>
@@ -29,26 +31,60 @@
       <form>
         <!--Pegando a informação: Nome Completo do Usuário-->
         <label for="nomesobrenome">Nome Completo:</label>
-        <input type="text" id="nomesobrenome" class="input-padrao" />
+        <input
+          type="text"
+          id="nomesobrenome"
+          class="input-padrao"
+          required
+          placeholder="Seu Nome Aqui"
+        />
 
         <!--Pegando a informação: Email do Usuário-->
         <label for="email">E-Mail:</label>
-        <input type="email" id="email" class="input-padrao" />
+        <input
+          type="email"
+          id="email"
+          class="input-padrao"
+          required
+          placeholder="seuemail@dominio.com"
+        />
 
         <!--Pegando a informação: Número de Telefone do Usuário-->
         <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" class="input-padrao" />
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          required
+          placeholder="(XX)XXXXX-XXXX"
+        />
 
         <!--Pegando a informação: Data de Nascimento do Usuário-->
         <label for="nascimento">Data de Nascimento:</label>
-        <input type="date" id="nascimento" class="input-padrao" />
+        <input type="date" id="nascimento" class="input-padrao" required />
 
-        <!--Pegando a informação: Nome Completo do Usuário-->
+        <!--Pegando a informação: Endereço do Usuário-->
         <label for="endereco">Endereço:</label>
-        <input type="text" id="endereco" class="input-padrao" />
+        <input
+          type="text"
+          id="endereco"
+          class="input-padrao"
+          required
+          placeholder="Avenida das Barbearias, 18"
+        />
 
-        <div>
-          <p>Como prefere ser contatado pela Barbearia do Jão?</p>
+        <!--Pegando a informação: CEP do Usuário-->
+        <label for="cep">CEP:</label>
+        <input
+          type="number"
+          id="cep"
+          class="input-padrao"
+          required
+          placeholder="00000-000"
+        />
+
+        <fieldset>
+          <legend>Como prefere ser contatado pela Barbearia do Jão?</legend>
           <!--Pegando a informação: Como o Usuário deseja ser contatado 1-->
           <label for="radio-email"
             ><input
@@ -56,7 +92,7 @@
               name="contato"
               value="email"
               id="radio-email"
-            />E-Mail:</label
+            />E-Mail</label
           >
 
           <!--Pegando a informação: Como o Usuário deseja ser contatado 2-->
@@ -66,7 +102,7 @@
               name="contato"
               value="telefone"
               id="radio-telefone"
-            />Telefone:</label
+            />Telefone</label
           >
 
           <!--Pegando a informação: Como o Usuário deseja ser contatado 3-->
@@ -76,28 +112,34 @@
               name="contato"
               value="whatsapp"
               id="radio-whatsapp"
-            />WhatsApp:</label
+              checked
+            />WhatsApp</label
           >
-        </div>
+        </fieldset>
 
-        <div class="horario">
-          <p>Qual o horário prefere ser atendido em nossa Unidade?</p>
+        <fieldset class="horario">
+          <legend>Qual o horário prefere ser atendido em nossa Unidade?</legend>
           <select>
             <option>Manhã (08:00 às 12:00)</option>
             <option>Tarde (12:00 às 16:30)</option>
             <option>Final da Tarde (16:30 às 18:00)</option>
             <option>Noite (18:00 às 21:30)</option>
           </select>
-        </div>
+        </fieldset>
 
         <label
-          ><input clas="novidades" type="checkbox" />Gostaria de receber
-          novidades e promoções por e-mail?</label
+          ><input clas="novidades" type="checkbox" required />Gostaria de
+          receber novidades e promoções por e-mail?</label
         >
 
         <!--Adicionando algumas informações-->
         <label for="mensagem">Adicione uma mensagem:</label>
-        <textarea cols="60" rows="10" id="mensagem"></textarea>
+        <textarea
+          cols="60"
+          rows="10"
+          id="mensagem"
+          placeholder="Adicione sua mensagem aqui! (Opcional)"
+        ></textarea>
 
         <!--Enviar as informações fornecidas pelo Usuário-->
         <input class="enviar" type="submit" value="Enviar Formulário" />
@@ -106,7 +148,7 @@
   </body>
 
   <footer>
-    <img src="./imagens/logo-branco.png" />
+    <img src="./imagens/logo-branco.png" alt="Logo - Barbearia do Jão" />
     <p class="copyright">&copy; Copyright Barbearia do Jão - 2022</p>
   </footer>
 </html>

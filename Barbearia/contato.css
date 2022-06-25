@@ -42,13 +42,13 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.input-padrao, .enviar, .horario{
+.input-padrao, .horario{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
@@ -59,6 +59,26 @@ form label, form p{
 
 .novidades{
     margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    border-color: darkgoldenrod;
+    font-family: 'League Gothic', sans-serif;
+    color: black;
+    transition: 1s background;
+}
+
+.enviar :hover{
+    color: white;
+    font-family: 'League Gothic', sans-serif;;
+    background: orangered;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 footer{

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="contato.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="caixa">
+        <h1>
+          <a href="barbearia.html"><img src="./imagens/logo.png" /></a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="barbearia.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form>
+        <!--Pegando a informação: Nome Completo do Usuário-->
+        <label for="nomesobrenome">Nome Completo:</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" />
+
+        <!--Pegando a informação: Email do Usuário-->
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" class="input-padrao" />
+
+        <!--Pegando a informação: Número de Telefone do Usuário-->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" class="input-padrao" />
+
+        <!--Pegando a informação: Data de Nascimento do Usuário-->
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" class="input-padrao" />
+
+        <!--Pegando a informação: Nome Completo do Usuário-->
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" class="input-padrao" />
+
+        <div>
+          <p>Como prefere ser contatado pela Barbearia do Jão?</p>
+          <!--Pegando a informação: Como o Usuário deseja ser contatado 1-->
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contato"
+              value="email"
+              id="radio-email"
+            />E-Mail:</label
+          >
+
+          <!--Pegando a informação: Como o Usuário deseja ser contatado 2-->
+          <label for="radio-telefone"
+            ><input
+              type="radio"
+              name="contato"
+              value="telefone"
+              id="radio-telefone"
+            />Telefone:</label
+          >
+
+          <!--Pegando a informação: Como o Usuário deseja ser contatado 3-->
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contato"
+              value="whatsapp"
+              id="radio-whatsapp"
+            />WhatsApp:</label
+          >
+        </div>
+
+        <label
+          ><input clas="novidades" type="checkbox" />Gostaria de receber
+          novidades e promoções por e-mail?</label
+        >
+
+        <!--Adicionando algumas informações-->
+        <label for="mensagem">Adicione uma mensagem:</label>
+        <textarea cols="60" rows="10" id="mensagem"></textarea>
+
+        <!--Enviar as informações fornecidas pelo Usuário-->
+        <input type="submit" value="Enviar Formulário" />
+      </form>
+    </main>
+  </body>
+
+  <footer>
+    <img src="./imagens/logo-branco.png" />
+    <p class="copyright">&copy; Copyright Barbearia do Jão - 2022</p>
+  </footer>
+</html>

@@ -81,7 +81,7 @@ form label, form legend{
     background: orange;
     font-size: 20px;
     cursor: pointer;
-    transform: scale(1.1) rotate(5deg) rotate(-5deg);
+    transform: scale(1.1);
 }
 
 table{

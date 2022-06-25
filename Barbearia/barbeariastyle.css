@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 body{
     background: #EDEDED;
 }

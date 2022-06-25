@@ -48,7 +48,7 @@ form label, form p{
     margin-bottom: 10px;
 }
 
-.input-padrao{
+.input-padrao, .enviar, .horario{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;

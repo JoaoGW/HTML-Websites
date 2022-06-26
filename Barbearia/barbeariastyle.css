@@ -36,37 +36,10 @@ nav a:hover {
 /*Fim do Cabeçalho*/
 
 /*Início do Body*/
-body{
-    background: #EDEDED;
-}
-
-em strong{
-    color: red;
-}
-
 p {
     text-align: center;
     font-family: 'Nuosu SIL', serif;
     font-size: 17px;
-}
-
-h2{
-    text-align: center; 
-    background: #bdbdbd; 
-    color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 10px;
-    margin-left: 10px;
-}
-
-.principal{
-    background: #B2B2B2;
-    padding: 20px;
-}
-
-#p-missao {
-    font-size: 25px;
 }
 
 .beneficios{
@@ -79,19 +52,22 @@ h2{
     width: 20%;
 }
 
+#p-missao {
+    font-size: 25px;
+}
+
 .textos{
     text-align: center;
     font-family: 'Nuosu SIL', serif;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 /*Fim do body*/
 
 /*CSS3 da página inicial*/
 .banner{
     width: 100%;
-    margin: 10px 0 0;
 }
 
 .titulo-principal{
@@ -121,7 +97,7 @@ h2{
 }
 
 .utensilios{
-    width: 120px;
+    width: 150px;
     float: left;
     margin-left: 20px;
     margin-bottom: 20px;

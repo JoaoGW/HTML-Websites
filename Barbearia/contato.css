@@ -111,3 +111,14 @@ footer{
     font-size: 13px;
     margin-top: 20px;
 }
+
+/*Tornando a página responsiva para dispositivos com largura de até 480px*/
+@media screen and (max-width: 480px){
+    .caixa, form, table, footer{
+        width: auto;
+    }
+
+    nav{
+        position: static;
+    }
+}

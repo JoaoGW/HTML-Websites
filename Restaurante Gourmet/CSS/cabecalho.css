@@ -1,0 +1,29 @@
+.cabecalho{
+    align-items: center;
+    background: var(--fundo);
+    display: flex;
+    height: 13vh;
+    width: 100%;
+}
+
+.cabecalho__lista{
+    display: flex;
+    margin-left: 1100px;
+    list-style-type: none;
+}
+
+.cabecalho__item{
+    font-size: var(--fonte-tamanho-padrao);
+    font-style: var(--fonte-padrao);
+    padding: 0 0.8em;
+}
+
+.cabecalho__link{
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho__link:hover{
+    color: #E79551;
+    text-decoration: underline;
+}

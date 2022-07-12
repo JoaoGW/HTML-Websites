@@ -1,0 +1,171 @@
+<!--Projeto iniciado em 08/07/2022 por João Pedro do Carmo R-->
+<!--Projeto finalizado em 11/07/2022 por João Pedro do Carmo R-->
+<!--Última atualização pós-termino em dd/mm/yyyy por XXXXXXXXXXXX-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | KingGourmet</title>
+    <link href="../CSS/reset.css" rel="stylesheet" />
+    <link href="../CSS/homepagestyle.css" rel="stylesheet" />
+    <link href="../CSS/cabecalho.css" rel="stylesheet" />
+    <link href="../CSS/bannerstyle.css" rel="stylesheet" />
+    <link href="../CSS/sobrestyle.css" rel="stylesheet" />
+    <link href="../CSS/menustyle.css" rel="stylesheet" />
+    <link href="../CSS/contatostyle.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1>King Gourmet</h1>
+      <nav>
+        <ul class="cabecalho__lista">
+          <li class="cabecalho__item">
+            <a class="cabecalho__link" href="#">Menu</a>
+          </li>
+          <li class="cabecalho__item">
+            <a class="cabecalho__link" href="#">Restaurants</a>
+          </li>
+          <li class="cabecalho__item">
+            <a class="cabecalho__link" href="#">Contact</a>
+          </li>
+          <li class="cabecalho__item">
+            <a class="cabecalho__link" href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="banner">
+      <div class="banner__conteudo">
+        <h2 class="banner__titulo">The art of making food</h2>
+      </div>
+      <div class="banner__mouse">
+        <img
+          class="banner__mouse___cursor"
+          src="../IMGS/mouse-cursor.png"
+          alt="Scroll down for more"
+        />
+      </div>
+    </section>
+
+    <section class="sobre">
+      <img
+        class="sobre__imagem"
+        src="../IMGS/sobre.jpg"
+        alt="Prato gourmet de abacate e ovo poche"
+      />
+      <div class="sobre__conteudo">
+        <h3 class="sobre__titulo">About KingGourmet</h3>
+        <p class="sobre__subtitulo">Tradition since 2004</p>
+        <p class="sobre__paragrafo">
+          The purest art of cooking can be found in our leading restaurant chain
+          in the haute cuisine market.Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Illo, quod doloribus. Adipisci tenetur officia
+          magnam quod obcaecati molestiae iste impedit aperiam maxime
+          perferendis! Assumenda earum fugiat nostrum quas aspernatur aliquid.
+        </p>
+        <p class="sobre__paragrafo sobre__paragrafo--secundario">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quod
+          doloribus. Adipisci tenetur officia magnam quod obcaecati molestiae
+          iste impedit aperiam maxime perferendis! Assumenda earum fugiat
+          nostrum quas aspernatur aliquid.
+        </p>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="menu__conteudo">
+        <h3 class="menu__titulo">Our menu</h3>
+        <p class="menu__subtitulo">Pancakes</p>
+        <p class="menu__paragrafo">
+          A pancake topped with honey and carefully selected fruits from our
+          garden straight to your plate only $3.50
+        </p>
+        <p class="menu__subtitulo">Waffles</p>
+        <p class="menu__paragrafo">
+          Waffles made by our kitchen covered in fig honey and lovely imported
+          spices only $4
+        </p>
+        <p class="menu__subtitulo">Pepperoni Pizza</p>
+        <p class="menu__paragrafo">
+          A delicious pepperoni pizza made in the director's house of the
+          classic wood fire and carefully assembled by our chef only $13.50
+        </p>
+        <p class="menu__subtitulo">Chef's Carbonara</p>
+        <p class="menu__paragrafo">
+          The carbonara pasta dish recognized across the continent for its
+          unforgettable flavor only $9
+        </p>
+      </div>
+      <img
+        class="menu__imagem"
+        src="../IMGS/pancakes.jpg"
+        alt="Pancakes plate"
+      />
+    </section>
+
+    <section class="contato">
+      <h3 class="contato__titulo">Contact</h3>
+      <p class="contato__texto">
+        We offer full-service catering for any event, large or small. We
+        understand your needs and we will cater the food to satisfy the biggerst
+        criteria of them all, both look and taste. <br />Do not hesitate to
+        contact us.
+      </p>
+      <p class="contato__contactar">Av. Ibirapuera, 3103</p>
+      <p class="contato__texto contato__texto--final">
+        You can also contact us by phone +55 11 91234-5678 or email
+        cpsenha@gmail.com, or you can send us a message here:
+      </p>
+
+      <form>
+        <input
+          type="text"
+          id="nome"
+          class="input-padrao"
+          required
+          placeholder="Your name"
+        />
+
+        <input
+          type="number"
+          id="quantidade"
+          class="input-padrao"
+          required
+          placeholder="How many people?"
+        />
+
+        <label for="meeting-time">Choose the best date and time for you</label>
+        <input
+          type="datetime-local"
+          id="meeting-time"
+          class="input-padrao"
+          value="2018-06-12T19:30"
+          min="2022-07-08T11:00"
+          max="2022-12-31T23:00"
+        />
+
+        <input
+          type="text"
+          id="mensagem"
+          class="input-padrao"
+          required
+          placeholder="Add a message or wish (optional)"
+        />
+
+        <input class="enviar" type="submit" value="Send Message" />
+      </form>
+    </section>
+
+    <footer class="rodape">
+      <p class="rodape__texto">Developed by GWBR - 2022</p>
+    </footer>
+  </body>
+</html>

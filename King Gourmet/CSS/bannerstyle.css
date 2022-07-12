@@ -1,0 +1,49 @@
+.banner{
+    height: calc(100vh - 13vh);
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+.banner__conteudo{
+    align-items: center;
+    background-image: url(../IMGS/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: calc(100vh - 23vh);
+    justify-content: center;
+    width: 100%;
+}
+
+.banner__titulo{
+    color: var(--cor-texto-padrao);
+    font-family: var(--fonte-padrao);
+    font-size: var(--fonte-tamanho-titulo);
+    text-align: center;
+}
+
+.banner__mouse{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 0.3em;
+}
+
+@media screen and (max-width: 400px){
+    .banner{
+        margin-bottom: 2em;
+        height: calc(100vh - 26vh);
+    }
+
+    .banner__conteudo{
+        height: calc(100vh - 26vh);
+    }
+
+    .banner__titulo{
+        font-size: 40px;
+    }
+
+    .banner__mouse{
+        display: none;
+    }
+}

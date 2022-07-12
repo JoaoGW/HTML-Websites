@@ -1,0 +1,24 @@
+.apresentacao{
+    align-items: center;
+    background-image: url(../IMGs/skyscrapers.jpg);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.apresentacao__letras{
+    border: 4px solid black;
+    color: black;
+    font-size: 100px;
+}
+
+@media screen and (max-width: 400px){
+    .apresentacao{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: calc(100vh - 20vh);
+    }
+}

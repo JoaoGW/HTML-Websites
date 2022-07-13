@@ -1,0 +1,76 @@
+.contato{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contato__titulo{
+    color: var(--cor-oposto);
+    font-family: var(--fonte-padrao);
+    font-size: var(--fonte-tamanho-texto);
+    margin: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contato__texto{
+    color: var(--cor-texto-padrao);
+    font-family: var(--fonte-padrao);
+    font-size: var(--fonte-tamanho-padrao);
+    text-align: center;
+}
+
+.contato__texto--final{
+    margin-bottom: 2em;
+}
+
+.contato__contactar{
+    color: var(--cor-oposto);
+    font-family: var(--fonte-padrao);
+    font-size: var(--fonte-tamanho-texto);
+    margin: 1em 0;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: var(--cor-texto-padrao);
+    font-family: var(--fonte-padrao);
+    font-size: var(--fonte-tamanho-padrao);
+    margin-top: 1em;
+}
+
+.input-padrao{
+    background-color: #ffffff27;
+    border-radius: 10px;
+    border-style: none;
+    color: var(--cor-texto-padrao);
+    font-size: 13px;
+    height: 30px;
+    margin: 0.5em 0;
+    padding: 1em;
+}
+
+.enviar{
+    background: var(--cor-oposto);
+    border-radius: 3px;
+    border-style: none;
+    color: var(--cor-texto-padrao);
+    height: 35px;
+    margin: 2em 0;
+    padding: 7px 7px;
+    width: 25%;
+}
+
+@media screen and (max-width: 400px){
+    .enviar{
+        width: 100%;
+    }
+
+    label{
+        text-align: center;
+    }
+}

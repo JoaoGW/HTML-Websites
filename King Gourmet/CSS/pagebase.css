@@ -1,0 +1,58 @@
+:root{
+    --cor-oposto: #E79551;
+    --cor-texto-padrao: #FDFDFD;
+    --cor-texto-secundario: #D0D0D0;
+    --fonte-padrao: 'Edu SA Beginner', cursive;
+    --fonte-tamanho-padrao: 20px;
+    --fonte-tamanho-texto: 24px;
+    --fonte-tamanho-titulo: 50px;
+    --fundo: #EEEEEE;
+}
+
+html::-webkit-scrollbar{
+    width: 0.75vw;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--cor-oposto);
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--cor-texto-padrao);
+}
+
+body{
+    background: #313131;
+}
+
+h1{
+    font-family: var(--fonte-padrao);
+    font-size: 32px;
+    margin: 0.7em 2em;
+    position: relative;
+    transition: 1s;
+}
+
+.rodape{
+    align-items: center;
+    background: var(--fundo);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 100%;
+}
+
+.rodape__texto{
+    color: black;
+    font-size: var(--fonte-tamanho-padrao);
+}
+
+@media screen and (max-width: 400px){
+    .rodape{
+        width: 100vw;
+    }
+    
+    .rodape__texto{
+        font-size: 17px;
+    }
+}

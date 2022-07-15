@@ -1,0 +1,59 @@
+.opiniao{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.opiniao__um{
+    background: #8e24241f;
+    margin-bottom: 3rem;
+    border-radius: 12px;
+}
+
+.opiniao__texto{
+    color: var(--vermelho-escuro);
+    font-size: 20px;
+    text-align: center;
+    margin:2em 0 1em 0;
+    font-weight: 600;
+    font-family: var(--fonte-padrao);
+}
+
+.opiniao__titulo{
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-size: 30px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 2rem auto;
+}
+
+.opiniao__perfil{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.opiniao__nome{
+    font-size: var(--fonte-tamanho-textos);
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    margin: 0.8em auto 0.5em auto;
+}
+
+.opiniao__profissao{
+    font-size: var(--fonte-tamanho-textos);
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    margin: 0 auto 1rem auto;
+    color: grey;
+}
+
+@media screen and (max-width: 400px){
+    .opiniao{
+        width: 90vw;
+    }
+}

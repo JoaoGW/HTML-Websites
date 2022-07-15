@@ -1,0 +1,46 @@
+.vagas{
+    width: 55vw;
+    margin: 0 auto;
+}
+
+.vagas__titulo{
+    font-size: 21px;
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+}
+
+.vagas__design, .vagas__desenvolvedor{
+    border: 1.4px solid rgba(128, 128, 128, 0.4);
+    padding: 1.2em 0 0.8em 1.2em;
+    margin: 1rem 0;
+    border-radius: 12px;
+}
+
+.design__ux, .desenvolvedor__back{
+    margin-bottom: 3rem;
+}
+
+.vagas__design--titulo, .vagas__desenvolvedor--titulo{
+    margin-bottom: 1rem;
+    font-size: var(--fonte-tamanho-padrao);
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    color: black;
+}
+
+.vagas__desenvolvedor--carga, .vagas__desenvolvedor--salario, .vagas__design--carga, .vagas__design--salario{
+    color: grey;
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+}
+
+.vagas__design--carga, .vagas__desenvolvedor--carga{
+    margin-bottom: 0.3em;
+}
+
+@media screen and (max-width: 400px){
+    .vagas{
+        width: 80vw;
+    }
+}

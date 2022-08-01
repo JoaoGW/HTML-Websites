@@ -1,0 +1,23 @@
+:root{
+    --cor-fundo: #CACACA;
+    --fonte-cor-padrao: #fdfdfd;
+    --fonte-cor-texto: black;
+    --fonte-padrao: 'Roboto Slab', serif;
+    --fonte-tamanho-padrao: 21px;
+}
+
+html::-webkit-scrollbar{
+    width: 0.5vw;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: grey;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+body{
+    background: var(--cor-fundo);
+}

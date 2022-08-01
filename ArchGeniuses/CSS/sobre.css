@@ -1,0 +1,112 @@
+.sobre{
+    margin: 0 auto 7em auto;
+    width: 90vw;
+}
+
+.sobre__texto{
+    color: var(--fonte-cor-texto);
+    font-family: var(--fonte-padrao);
+    font-size: var(--fonte-tamanho-padrao);
+}
+
+.sobre__titulo{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.556);
+    color: var(--fonte-cor-texto);
+    font-family: var(--fonte-padrao);
+    font-size: 25px;
+    margin-bottom: 1em;
+    padding-bottom: 12px;
+}
+
+.sobre__pessoal{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.sobre__pesoal--um, .sobre__pesoal--dois, .sobre__pesoal--tres{
+    text-align: center;
+}
+
+.sobre__imagem{
+    border-radius: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+    width: 300px;
+}
+
+.sobre__nome{
+    color: var(--fonte-cor-texto);
+    font-family: var(--fonte-padrao);
+    font-size: var(--fonte-tamanho-padrao);
+    margin-bottom: 0.5rem;
+}
+
+.sobre__descricao{
+    color: var(--fonte-cor-texto);
+    font-family: var(--fonte-padrao);
+    font-size: 17px;
+}
+
+.sobre__icon{
+    height: 50px;
+    margin-top: 0.6em;
+    width: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px){
+    .sobre__texto{
+        text-align: center;
+    }
+
+    .sobre__pessoal{
+        flex-direction: column;
+    }
+
+    .sobre__pesoal--um, .sobre__pesoal--dois, .sobre__pesoal--tres{
+        margin-bottom: 2.5em;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px){
+    .sobre__texto{
+        text-align: center;
+    }
+
+    .sobre__pessoal{
+        flex-direction: column;
+    }
+
+    .sobre__pesoal--um, .sobre__pesoal--dois, .sobre__pesoal--tres{
+        margin-bottom: 2.5em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px){
+    .sobre__texto{
+        font-size: 25px;
+        margin-bottom: 4rem;
+    }
+
+    .sobre__pessoal{
+        flex-direction: column;
+    }
+
+    .sobre__pesoal--um, .sobre__pesoal--dois, .sobre__pesoal--tres{
+        margin-bottom: 2.5em;
+    }
+
+    .sobre__imagem{
+        height: 400px;
+        width: 400px;
+    }
+
+    .sobre__nome, .sobre__descricao{
+        font-size: 25px;
+    }
+
+    .sobre__icon{
+        height: 65px;
+        width: 65px;
+    }
+}

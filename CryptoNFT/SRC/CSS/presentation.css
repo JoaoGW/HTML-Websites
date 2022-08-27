@@ -1,0 +1,180 @@
+.presentation{
+    background-image: linear-gradient(to right, #290F21, #CC1026, #290F21);
+    height: 100vh;
+}
+
+.presentation__container{
+    height: 100vh;
+    margin: 0 auto;
+    padding: 12.5vh 0;
+    width: 80vw;
+}
+
+.presentation__title, .presentation__subtitle{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.presentation__title{
+    font-size: 3.5em;
+}
+
+.presentation__subtitle{
+    font-size: 1.5em;
+    margin: 1em 0 3em 0;
+}
+
+.currency__details{
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+}
+
+.currency__name, .currency__value, .currency__variation{
+    margin-bottom: 0;
+    width: 170px;
+}
+
+.currency__button{
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+.currency__buy{
+    background: #068100;
+}
+
+.currency__sell{
+    background: #AA0000;
+}
+
+.currency__buy:hover, .currency__sell:hover{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.transaction-image{
+    height: 35px;
+    width: 35px;
+}
+
+.curency-separation{
+    border: 1px solid var(--white);
+    margin: 20px auto;
+    width: 95%;
+}
+
+.last-separation{
+    margin-bottom: 4em;
+}
+
+.currency__message{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*Old Smartphones*/
+@media screen and (min-width: 330px) and (max-width: 375px){
+
+    .presentation{
+        height: 365vh;
+    }
+
+    .currency__details{
+        flex-direction: column;
+        height: 40vh;
+        text-align: center;
+    }
+}
+
+/*Smartphones*/
+@media screen and (min-width: 376px) and (max-width: 767px){
+
+    .presentation{
+        height: 330vh;
+    }
+
+    .currency__details{
+        flex-direction: column;
+        height: 40vh;
+        text-align: center;
+    }
+}
+
+/*Mini Tablets*/
+@media screen and (min-width: 768px) and (max-width: 819px){
+
+    .presentation{
+        height: 110vh;
+    }
+
+    .presentation__container{
+        width: 95vw;
+    }
+
+    .currency__details{
+        text-align: center;
+    }
+
+    .currency-separation{
+        width: 100vw;
+    }
+}
+
+/*Mini Tablets*/
+@media screen and (min-width: 820px) and (max-width: 1023px){
+
+    .presentation{
+        height: 100vh;
+    }
+
+    .presentation__container{
+        width: 95vw;
+    }
+
+    .currency__details{
+        text-align: center;
+    }
+
+    .currency-separation{
+        width: 100vw;
+    }
+}
+
+/*Nest Hub*/
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+
+    .presentation{
+        height: 170vh;
+    }
+
+    .presentation__container{
+        width: 95vw;
+    }
+
+    .currency__details{
+        text-align: center;
+    }
+
+    .currency-separation{
+        width: 100vw;
+    }
+}
+
+/*Nest Hub MAX*/
+@media screen and (min-width: 1280px) and (max-width: 1439px){
+    .presentation{
+        height: 125vh;
+    }
+}
+
+/*Laptops*/
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    .presentation{
+        height: 120vh;
+    }
+}

@@ -1,0 +1,210 @@
+.paidplans{
+    background-image: linear-gradient(to right, #290F21, #CC1026, #290F21);
+    height: 100vh;
+}
+
+.paidplans__container{
+    height: 100vh;
+    margin: 0 auto;
+    padding: 12.5vh 0;
+    width: 80vw;
+}
+
+.paidplans__title, .paidplans__subtitle{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.paidplans__title{
+    font-size: 3.5em;
+}
+
+.paidplans__subtitle{
+    font-size: 1.5em;
+    margin: 1em 0 3em 0;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.plan{
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    transition: 2s all;
+    width: 30%;
+}
+
+.plan:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: 2s all;
+    width: calc(30% + 5%);
+}
+
+.plan__main{
+    margin: 0 auto;
+}
+
+.plan-image{
+    height: 130px;
+    width: 130px;
+}
+
+.plan-image-featured{
+    height: 180px;
+    width: 180px;
+}
+
+.plan__benefits{
+    list-style-type: square;
+    margin: 0 35%;
+}
+
+.plan__pricedetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2.5em 32.5% 0 32.5%;
+    text-align: center;
+}
+
+.plan__price{
+    font-size: 2em;
+}
+
+.plan__price--period{
+    font-size: 1em;
+}
+
+/*Old Smartphones*/
+@media screen and (min-width: 330px) and (max-width: 375px){
+
+    .paidplans{
+        height: 370vh;
+    }
+
+    .plans{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan{
+        margin-bottom: 3em;
+        width: 95%;
+    }
+
+    .plan:hover{
+        width: calc(95% + 5%);
+    }
+}
+
+/*Smartphones*/
+@media screen and (min-width: 376px) and (max-width: 767px){
+
+    .paidplans{
+        height: 300vh;
+    }
+
+    .plans{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan{
+        margin-bottom: 3em;
+        width: 95%;
+    }
+
+    .plan:hover{
+        width: calc(95% + 5%);
+    }
+}
+
+/*Mini Tablet*/
+@media screen and (min-width: 768px) and (max-width: 819px){
+
+    .paidplans{
+        height: 200vh;
+    }
+
+    .plans{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan{
+        margin-bottom: 3em;
+        width: 95%;
+    }
+
+    .plan:hover{
+        width: calc(95% + 5%);
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 820px) and (max-width: 1023px){
+
+    .paidplans{
+        height: 180vh;
+    }
+
+    .plans{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan{
+        margin-bottom: 3em;
+        width: 95%;
+    }
+
+    .plan:hover{
+        width: calc(95% + 5%);
+    }
+}
+
+/*Nest Hub*/
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+
+    .paidplans{
+        height: 320vh;
+    }
+
+    .plans{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan{
+        margin-bottom: 3em;
+        width: 95%;
+    }
+
+    .plan:hover{
+        width: calc(95% + 5%);
+    }
+}
+
+/*Nest Hub MAX*/
+@media screen and (min-width: 1280px) and (max-width: 1439px){
+    .paidplans{
+        height: 140vh;
+    }
+}
+
+/*Laptops*/
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    .paidplans{
+        height: 150vh;
+    }
+}

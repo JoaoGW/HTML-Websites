@@ -1,0 +1,190 @@
+.nfts{
+    background-image: linear-gradient(to right, #290F21, #CC1026, #290F21);
+    height: 100vh;
+}
+
+.nfts__container{
+    height: 100vh;
+    margin: 0 auto;
+    padding: 12.5vh 0;
+    width: 80vw;
+}
+
+.nfts__title, .nfts__subtitle{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nfts__title{
+    font-size: 3.5em;
+}
+
+.nfts__subtitle{
+    font-size: 1.5em;
+    margin: 1em 0 3em 0;
+}
+
+.carrossel{
+    height: 200px;
+    margin: 0 auto 3em auto;
+    width: 60%;
+}
+
+.carrossel-imgs{
+    height: 200px;
+    object-fit: contain;
+    width: 200px;
+}
+
+.nfts__foot{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nfts__text{
+    margin: 0 auto 2em auto;
+    width: 75%;
+}
+
+.nfts__button{
+    background: #290F21;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    height: 50px;
+    transition: 2s all;
+    width: 20%;
+}
+
+.nfts__button:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    font-size: 1.5em;
+    height: calc(50px + 25px);
+    transition: 2s all;
+    width: calc(20% + 5%);
+}
+
+.nfts__option{
+    font-size: 1.3em;
+    margin: 0.7em 0;
+    text-align: center;
+}
+
+/*Old Smartphones*/
+@media screen and (min-width: 330px) and (max-width: 375px){
+    .nfts{
+        height: 340vh;
+    }
+
+    .nfts__text{
+        font-size: 1.3em;
+        padding-top: 450px;
+        width: 100%;
+    }
+
+    .nfts__button{
+        width: 80%;
+    }
+
+    .nfts__button:hover{
+        width: calc(80% + 10%);
+    }
+}
+
+/*Smartphones*/
+@media screen and (min-width: 376px) and (max-width: 767px){
+    .nfts{
+        height: 250vh;
+    }
+
+    .nfts__text{
+        font-size: 1.3em;
+        padding-top: 450px;
+        width: 100%;
+    }
+
+    .nfts__button{
+        width: 80%;
+    }
+
+    .nfts__button:hover{
+        width: calc(80% + 10%);
+    }
+}
+
+/*Mini Tablet*/
+@media screen and (min-width: 768px) and (max-width: 819px){
+    .nfts{
+        height: 170vh;
+    }
+
+    .nfts__text{
+        font-size: 1.3em;
+        padding-top: 450px;
+        width: 100%;
+    }
+
+    .nfts__button{
+        width: 80%;
+    }
+
+    .nfts__button:hover{
+        width: calc(80% + 10%);
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 820px) and (max-width: 1023px){
+    .nfts{
+        height: 140vh;
+    }
+
+    .nfts__text{
+        font-size: 1.3em;
+        padding-top: 450px;
+        width: 100%;
+    }
+
+    .nfts__button{
+        width: 80%;
+    }
+
+    .nfts__button:hover{
+        width: calc(80% + 10%);
+    }
+}
+
+/*Nest Hub*/
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .nfts{
+        height: 200vh;
+    }
+
+    .nfts__text{
+        font-size: 1.3em;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .nfts__button{
+        width: 80%;
+    }
+
+    .nfts__button:hover{
+        width: calc(80% + 10%);
+    }
+}
+
+/*Nest Hub MAX*/
+@media screen and (min-width: 1280px) and (max-width: 1439px){
+    .nfts{
+        height: 125vh;
+    }
+}
+
+/*Laptops*/
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    .nfts{
+        height: 125vh;
+    }
+}

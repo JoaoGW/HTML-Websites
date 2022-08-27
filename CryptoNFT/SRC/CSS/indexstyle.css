@@ -1,0 +1,346 @@
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+}
+
+.landing{
+    z-index: 10;
+}
+
+.landign__content{
+    margin: 0 auto;
+}
+
+.content-left{
+    left: 110px;
+    position: absolute;
+    top: 310px;
+}
+
+.left__texts{
+    color: var(--white);
+    font-family: var(--font-title);
+    margin: 0 auto;
+}
+
+.left__title{
+    font-size: 3.7em;
+    margin-bottom: 1em;
+}
+
+.left__subtitle{
+    font-size: 1.7em;
+    margin-bottom: 0.75em;
+    text-align: start;
+    width: 800px;
+}
+
+#tour{
+    background: var(--red);
+    border: none;
+    border-radius: 45px;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 1.3em;
+    height: 80px;
+    text-align: center;
+    transition: 1.5s all;
+    width: 160px;
+}
+
+#tour:focus{
+    border: none;
+    outline: none;
+}
+
+.left__tour:hover{
+    background: #330615;
+    transition: 1.5s all;
+}
+
+.content-right{
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+.content-image{
+    height: 650px;
+    object-fit: cover;
+    width: 650px;
+}
+
+.tutorial{
+    height: 500px;
+    width: 470px;
+}
+
+/*Old Smartphones*/
+@media screen and (min-width: 330px) and (max-width: 375px){
+
+    .bg-image{
+        height: 120vh;
+    }
+
+    .content-left{
+        left: 10px;
+        position: absolute;
+        text-align: center;
+        top: 110px;
+    }
+
+    .landign__content{
+        display: block;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .left__title{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    
+    .left__subtitle{
+        font-size: 1.8em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        width: 95%;
+    }
+
+    #tour{
+        margin-top: 3em;
+    }
+
+    .tutorial{
+        width: 350px;
+    }
+}
+
+/*Smartphones*/
+@media screen and (min-width: 376px) and (max-width: 767px){
+
+    .content-left{
+        left: 10px;
+        position: absolute;
+        text-align: center;
+        top: 150px;
+    }
+
+    .landign__content{
+        display: block;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .left__title{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    
+    .left__subtitle{
+        font-size: 1.8em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        width: 95%;
+    }
+
+    #tour{
+        margin-top: 3em;
+    }
+
+    .tutorial{
+        width: 350px;
+    }
+}
+
+/*Mini Tablets*/
+@media screen and (min-width: 768px) and (max-width: 819px){
+
+    .content-left{
+        left: 30px;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        top: 350px;
+    }
+
+    .landign__content{
+        display: block;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .left__title{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    
+    .left__subtitle{
+        font-size: 1.8em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        width: 95%;
+    }
+
+    #tour{
+        width: 300px;
+        margin-top: 3em;
+    }
+
+    .tutorial{
+        width: 470px;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width: 820px) and (max-width: 1023px){
+
+    .content-left{
+        left: 30px;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        top: 350px;
+    }
+
+    .landign__content{
+        display: block;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .left__title{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    
+    .left__subtitle{
+        font-size: 1.8em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        width: 95%;
+    }
+
+    #tour{
+        width: 300px;
+        margin-top: 3em;
+    }
+
+    .tutorial{
+        width: 470px;
+    }
+}
+
+/*Nest Hub*/
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+
+    .content-left{
+        left: 30px;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        top: 150px;
+    }
+
+    .landign__content{
+        display: block;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .left__title{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    
+    .left__subtitle{
+        font-size: 1.8em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        width: 95%;
+    }
+
+    #tour{
+        width: 300px;
+        margin-top: 3em;
+    }
+
+    .tutorial{
+        width: 470px;
+    }
+}
+
+/*Nest Hub MAX*/
+@media screen and (min-width: 1280px) and (max-width: 1439px){
+
+    .content-left{
+        left: 30px;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        top: 250px;
+    }
+
+    .landign__content{
+        display: block;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .left__title{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    
+    .left__subtitle{
+        font-size: 1.8em;
+        margin-bottom: 0.75em;
+        text-align: center;
+        width: 95%;
+    }
+
+    #tour{
+        width: 300px;
+        margin-top: 3em;
+    }
+
+    .tutorial{
+        width: 470px;
+    }
+}
+
+/*Laptops*/
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    .content-left{
+        top: 280px;
+    }
+
+    .left__title{
+        font-size: 2.6em;
+    }
+
+    .left__subtitle{
+        font-size: 1.3em;
+    }
+
+    .content-image{
+        height: 550px;
+        width: 550px;
+    }
+}

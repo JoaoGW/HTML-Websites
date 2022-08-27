@@ -1,0 +1,332 @@
+:root{
+    --pattern-font: 'Tiro Gurmukhi', serif;
+    --pattern-color-dark: #000000;
+    --pattern-color: #FDFDFD;
+    --grey: #A9A9A9;
+    --pattern-big-size: 40px;
+    --pattern-normal-size: 20px;
+    --pattern-small-size: 15px;
+    --green-color: #0F7601;
+}
+
+.bg-image{
+    background-image: url(../IMGs/woman-garden.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.mode__button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+#access-button{
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 17px;
+    left: 130px;
+    height: 75px;
+    width: 75px;
+}
+
+#access-button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.form-title{
+    font-family: var(--pattern-font);
+    color: var(--pattern-color-dark);
+    font-size: var(--pattern-big-size);
+    text-align: center;
+    line-height: 50px;
+    margin: 0.5em auto;
+}
+
+#login{
+    z-index: 10;
+    position: absolute;
+    right: 100px;
+    top: 18%;
+    width: 40%;
+    border-radius: 15px;
+    background-color: var(--pattern-color);
+    height: 70vh;
+    opacity: 90%;
+}
+
+#input-user, #input-password{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#emailHelp, #passwordHelpInline{
+    color: #A9A9A9;
+}
+
+#title-form, #title-form-two{
+    font-family: var(--pattern-font);
+    font-size: var(--pattern-normal-size);
+}
+
+#sub-text{
+    font-family: var(--pattern-font);
+    font-size: var(--pattern-small-size);
+}
+
+.savepass, .login-button{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#savelabel{
+    margin-left: 5px;
+}
+
+.forgot{
+    text-align: center;
+    margin: 0 auto 1.5em auto;
+}
+
+.forgot__password{
+    font-style: var(--pattern-font);
+    font-size: var(--pattern-small-size);
+    text-decoration: none;
+    color: var(--pattern-color-dark);
+}
+
+.forgot__password:hover{
+    font-style: italic;
+}
+
+.create{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.create__question{
+    text-decoration: none;
+    color: var(--pattern-color-dark);
+    font-family: var(--pattern-font);
+    font-size: var(--pattern-normal-size);
+}
+
+.create__question:hover{
+    font-style: italic;
+}
+
+#loginow{
+    background-color: var(--green-color);
+    color: var(--pattern-color);
+    font-family: var(--pattern-font);
+    font-size: var(--pattern-normal-size);
+    text-align: center;
+    margin: 0 auto 1.5em auto;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em;
+    width: 30%;
+    transition: 1s all;
+}
+
+#loginow:hover{
+    background: #14AB00;
+    transition: 1s all;
+}
+
+.socials{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.socials__icons{
+    display: flex;
+    justify-content: center;
+}
+
+.socials__info{
+    font-family: var(--pattern-font);
+    font-size: var(--pattern-normal-size);
+    color: var(--grey);
+    margin: 0 auto 0.5em auto;
+    text-align: center;
+}
+
+.socials__login{
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.icon-one{
+    margin-left: 1rem;
+}
+
+/*Smartphones Funcionality*/
+@media screen and (min-width: 340px) and (max-width: 767px){
+    .bg-image{
+        height: 120vh;
+    }
+
+    #login{
+        width: 90%;
+        right: 17px;
+        top: 18%;
+        height: 90vh;
+    }
+
+    .mode__button{
+        bottom: -160px;
+        left: 90px;
+    }
+    
+    #access-button{
+        bottom: -170px;
+        left: 200px;
+    }
+}
+
+/*Mini Tablets (iPad Mini)*/
+@media screen and (min-width: 768px) and (max-width: 819px){
+    .bg-image{
+        height: 100vh;
+    }
+
+    #login{
+        width: 90%;
+        right: 40px;
+        top: 18%;
+        height: 65vh;
+    }
+
+    .mode__button{
+        bottom: 100px;
+        left: 290px;
+    }
+    
+    #access-button{
+        bottom: 90px;
+        left: 400px;
+    }
+}
+
+/*Tablets Functionality (iPad Air)*/
+@media screen and (min-width: 820px) and (max-width: 1023px){
+    .bg-image{
+        height: 100vh;
+    }
+
+    #login{
+        width: 90%;
+        right: 40px;
+        top: 18%;
+        height: 57vh;
+    }
+
+    .mode__button{
+        bottom: 200px;
+        left: 290px;
+    }
+    
+    #access-button{
+        bottom: 190px;
+        left: 400px;
+    }
+}
+
+/*Neste Hub*/
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .bg-image{
+        height: 130vh;
+    }
+
+    #login{
+        width: 45%;
+        right: 40px;
+        top: 18%;
+        height: 112vh;
+    }
+
+    .mode__button{
+        position: fixed;
+        bottom: 20px;
+        left: 30px;
+    }
+    
+    #access-button{
+        position: fixed;
+        bottom: 10px;
+        left: 130px;
+    }
+}
+
+/*Neste Hub MAX*/
+@media screen and (min-width: 1280px) and (max-width: 1439px){
+    .bg-image{
+        height: 100vh;
+    }
+
+    #login{
+        width: 45%;
+        right: 40px;
+        top: 13%;
+        height: 83vh;
+    }
+
+    .mode__button{
+        position: fixed;
+        bottom: 20px;
+        left: 30px;
+    }
+    
+    #access-button{
+        position: fixed;
+        bottom: 10px;
+        left: 130px;
+    }
+}
+
+/*Laptops with smaller screens*/
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    .bg-image{
+        height: 110vh;
+    }
+
+    #login{
+        width: 40%;
+        right: 40px;
+        top: 18%;
+        height: 90vh;
+    }
+
+    .mode__button{
+        position: fixed;
+        bottom: 20px;
+        left: 30px;
+    }
+    
+    #access-button{
+        position: fixed;
+        bottom: 10px;
+        left: 130px;
+    }
+}

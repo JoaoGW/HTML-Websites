@@ -1,0 +1,214 @@
+.about{
+    background-image: linear-gradient(to right, #290F21, #CC1026, #290F21);
+    height: 100vh;
+}
+
+.about__container{
+    height: 100vh;
+    margin: 0 auto;
+    padding: 12.5vh 0;
+    width: 80vw;
+}
+
+.about__title, .about__subtitle{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about__title{
+    font-size: 3.5em;
+}
+
+.about__subtitle{
+    font-size: 1.5em;
+    margin: 1em 0 4em 0;
+}
+
+.about__timeline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.timeline__item{
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+}
+
+.timeline__image{
+    height: 130px;
+    margin-bottom: 1.5em;
+    width: 130px;
+}
+
+.timeline__title{
+    font-size: 2em;
+}
+
+.timeline__description{
+    font-size: 1.1em;
+    margin-bottom: 3em;
+}
+
+.about__foot{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about__join{
+    background: #290F21;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    height: 50px;
+    margin-bottom: 0.5rem;
+    transition: 2s all;
+    width: 20%;
+}
+
+.about__join:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    height: calc(50px + 25px);
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: 2s all;
+    width: calc(20% + 5%);
+}
+
+/*Old Smartphones*/
+@media screen and (min-width: 330px) and (max-width: 375px){
+
+    .about{
+        height: 350vh;
+    }
+
+    .about__timeline{
+        flex-direction: column;
+    }
+
+    .timeline__item{
+        width: 100%;
+    }
+
+    .about__join{
+        width: 80%;
+    }
+
+    .about__join:hover{
+        width: calc(80% + 5%);
+    }
+}
+
+/*Smartphones*/
+@media screen and (min-width: 376px) and (max-width: 767px){
+
+    .about{
+        height: 270vh;
+    }
+
+    .about__timeline{
+        flex-direction: column;
+    }
+
+    .timeline__item{
+        width: 100%;
+    }
+
+    .about__join{
+        width: 80%;
+    }
+
+    .about__join:hover{
+        width: calc(80% + 5%);
+    }
+}
+
+/*Mini Tablet*/
+@media screen and (min-width: 768px) and (max-width: 819px){
+
+    .about{
+        height: 190vh;
+    }
+
+    .about__timeline{
+        flex-direction: column;
+    }
+
+    .timeline__item{
+        width: 100%;
+    }
+
+    .about__join{
+        width: 80%;
+    }
+
+    .about__join:hover{
+        width: calc(80% + 5%);
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 820px) and (max-width: 1023px){
+
+    .about{
+        height: 160vh;
+    }
+
+    .about__timeline{
+        flex-direction: column;
+    }
+
+    .timeline__item{
+        width: 100%;
+    }
+
+    .about__join{
+        width: 80%;
+    }
+
+    .about__join:hover{
+        width: calc(80% + 5%);
+    }
+}
+
+/*Nest Hub*/
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+
+    .about{
+        height: 290vh;
+    }
+
+    .about__timeline{
+        flex-direction: column;
+    }
+
+    .timeline__item{
+        width: 100%;
+    }
+
+    .about__join{
+        width: 80%;
+    }
+
+    .about__join:hover{
+        width: calc(80% + 5%);
+    }
+}
+
+/*Nest Hub MAX*/
+@media screen and (min-width: 1280px) and (max-width: 1439px){
+    .about{
+        height: 130vh;
+    }
+}
+
+/*Laptops*/
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    .about{
+        height: 130vh;
+    }
+}

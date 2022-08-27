@@ -1,0 +1,7 @@
+Navbar System was built with Bootstrap Version 5.2.0, check their DOCs for better knowledge.
+
+Animations are from animate css style website, the class animate__animated is the main class to make it work correctly
+
+Modal System built with Bootstrap Version 5.2.0, check their DOCs for better knowledge.
+
+Tutorial System built with Scribe

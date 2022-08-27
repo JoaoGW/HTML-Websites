@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Gardening</title>
+    <!--CSS Codes-->
+    <link rel="stylesheet" href="../CSS/loginstyle.css" />
+    <!-- CSS only - Bootstrap 5.2.0 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap"
+      rel="stylesheet"
+    />
+    <!--Javascript Code-->
+    <script src="../JS/darkmode.js" defer></script>
+    <script src="../JS/move.js" defer></script>
+    <!--Javascript - Bootstrap 5.2.0-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <!--Navigation System built with Bootstrap 5.2.0-->
+      <nav class="navbar navbar-expand-lg bg-light" id="navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" lang="en" id="nav-item-one"
+            >Gardening</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onclick="moveContent()"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end me-4"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  lang="en"
+                  id="nav-item-two"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" lang="en" id="nav-item-three"
+                  >Buy Plants</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" lang="en" id="nav-item-four"
+                  >Wiki Plants</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" lang="en" id="nav-item-five">Profile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="principal">
+      <div class="bg-image"></div>
+      <div class="mode-button">
+        <button class="mode__button" id="mode" onclick="switchMode()">
+          <img
+            src="../IMGs/lightmode.svg"
+            alt="Switch Mode Button"
+            id="mode-image"
+          />
+        </button>
+        <!--Accessibilty Modal built with Bootstrap 5.2.0-->
+        <!-- Button trigger accessibility modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#accessModal"
+          id="access-button"
+        >
+          <img src="../IMGs/accessibility.svg" alt="Accessibility" lang="en" />
+        </button>
+
+        <!-- Accessibility Modal -->
+        <div
+          class="modal fade"
+          id="accessModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Accessibility Options
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p class="modal__text">
+                  Here you can set and/or implement your accessibility
+                  configurations!
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-success">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Section of the login form-->
+      <section class="loginform" id="login">
+        <h2 class="form-title" lang="en" id="login-text">Login</h2>
+        <form>
+          <div class="mb-3" id="input-user">
+            <label
+              for="exampleInputEmail1"
+              class="form-label"
+              lang="en"
+              id="title-form"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text" lang="en">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="g-3 align-items-center" id="input-password">
+            <div class="col-auto">
+              <label
+                for="inputPassword6"
+                class="col-form-label"
+                lang="en"
+                id="title-form-two"
+                >Password</label
+              >
+            </div>
+            <div class="col-auto">
+              <input
+                type="password"
+                id="inputPassword6"
+                class="form-control"
+                aria-describedby="passwordHelpInline"
+              />
+            </div>
+            <div class="col-auto">
+              <span id="passwordHelpInline" class="form-text" lang="en">
+                Must be 8-20 characters long.
+              </span>
+            </div>
+          </div>
+          <div class="mb-3 mt-3 form-check">
+            <div class="savepass">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+                pattern="^[a-zA-Z]\w{7,19}$"
+              />
+              <label
+                class="form-check-label"
+                for="exampleCheck1"
+                lang="en"
+                id="savelabel"
+                >Save Password</label
+              >
+            </div>
+          </div>
+
+          <div class="forgot">
+            <a href="#" class="forgot__password" id="forgotpass"
+              >Forgot your password? Click Here!</a
+            >
+          </div>
+
+          <div class="login-button">
+            <button
+              type="submit"
+              class="btn btn-primary"
+              id="loginow"
+              lang="en"
+            >
+              Login
+            </button>
+          </div>
+        </form>
+
+        <div class="create">
+          <a class="create__question" href="#" lang="en" id="create_acc"
+            >Don't have an account yet? Create NOW!</a
+          >
+        </div>
+
+        <div class="socials">
+          <p class="socials__info" lang="en" id="socials-login">
+            Login with your social networks
+          </p>
+          <div class="socials__icons">
+            <a href="https:/www.google.com" class="socials__link">
+              <img
+                class="socials__login icon-one"
+                src="../IMGs/google.svg"
+                alt="Google"
+                lang="en"
+              />
+            </a>
+            <a href="https://www.facebook.com" class="socials__link">
+              <img
+                class="socials__login"
+                src="../IMGs/facebook.svg"
+                alt="Facebook"
+                lang="en"
+              />
+            </a>
+            <a href="https://www.twitter.com" class="socials__link">
+              <img
+                class="socials__login"
+                src="../IMGs/twitter.svg"
+                alt="Twitter"
+                lang="en"
+              />
+            </a>
+            <a href="#" class="socials__link">
+              <img
+                class="socials__login"
+                src="../IMGs/plant.svg"
+                alt="Gardening Account"
+                lang="en"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

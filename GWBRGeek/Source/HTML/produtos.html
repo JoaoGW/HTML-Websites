@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Page Title-->
+    <title>Produtos | GWBRGeek</title>
+    <link rel="icon" type="image/x-icon" href="../IMGs/icons/Joystick.svg" />
+    <!--Page Style Files-->
+    <link rel="stylesheet" href="../CSS/reset.css" />
+    <link rel="stylesheet" href="../CSS/pagebase.css" />
+    <link rel="stylesheet" href="../CSS/cabecalho.css" />
+    <link rel="stylesheet" href="../CSS/homestyle.css" />
+    <link rel="stylesheet" href="../CSS/produtosstyle.css" />
+    <link rel="stylesheet" href="../CSS/rodape.css" />
+    <!--Google Fonts-->
+    <!--Raleway Font Weights: 400, 500, 600, 700 and 800-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__title">
+        <img class="cabecalho__joy" src="../IMGs/icons/Joystick.svg" alt="" />
+        <h1 class="cabecalho__nome">
+          <a class="header__link" href="./homepage.html">GWBR</a>
+        </h1>
+        <h1 class="cabecalho__subnome">
+          <a class="header__link" href="./homepage.html">Geek</a>
+        </h1>
+      </div>
+      <div class="cabecalho__pesquisa">
+        <input
+          type="text"
+          name="pesquisa"
+          id="pesquisa"
+          class="hide-sm"
+          placeholder="O que deseja encontrar?"
+        />
+      </div>
+      <div class="cabecalho__login">
+        <button
+          type="button"
+          class="login-botao"
+          id="login"
+          onclick="window.location = './login.html'"
+        >
+          Login
+        </button>
+        <button
+          type="button"
+          class="login-botao hide-tb hide-sm"
+          id="cadastro"
+          onclick="window.location = './signup.html'"
+        >
+          Cadastro
+        </button>
+      </div>
+    </header>
+
+    <!--Conteúdo Principal da Página-->
+    <main>
+      <section class="produtos">
+        <div class="produtos__cabecalho">
+          <h2 class="produtos__titulo">Todos os Produtos</h2>
+          <button type="button" class="produtos__adicionar">
+            Adicionar Produto
+          </button>
+        </div>
+
+        <div class="starwars__products">
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-1.png"
+              alt="Produto"
+            />
+            <p class="product-name">Produto ABC</p>
+            <p class="product-price">R$89.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-2.png"
+              alt="Produto"
+            />
+            <p class="product-name">Produto ABC</p>
+            <p class="product-price">R$89.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-3.png"
+              alt="Produto"
+            />
+            <p class="product-name">Produto ABC</p>
+            <p class="product-price">R$89.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-4.png"
+              alt="Produto"
+            />
+            <p class="product-name">Produto ABC</p>
+            <p class="product-price">R$89.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-5.png"
+              alt="Produto"
+            />
+            <p class="product-name">Produto ABC</p>
+            <p class="product-price">R$89.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-6.png"
+              alt="Produto"
+            />
+            <p class="product-name">Produto ABC</p>
+            <p class="product-price">R$89.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+        </div>
+
+        <div class="console__products">
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-7.png"
+              alt="Produto"
+            />
+            <p class="product-name">Controle XYZ</p>
+            <p class="product-price">R$99.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-8.png"
+              alt="Produto"
+            />
+            <p class="product-name">Controle e Console XYZ</p>
+            <p class="product-price">R$229.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-9.png"
+              alt="Produto"
+            />
+            <p class="product-name">Console XYZ</p>
+            <p class="product-price">R$149.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-10.png"
+              alt="Produto"
+            />
+            <p class="product-name">Console XYZ</p>
+            <p class="product-price">R$149.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-11.png"
+              alt="Produto"
+            />
+            <p class="product-name">Console XYZ</p>
+            <p class="product-price">R$149.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-12.png"
+              alt="Produto"
+            />
+            <p class="product-name">Console XYZ</p>
+            <p class="product-price">R$149.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+        </div>
+
+        <div class="console__products">
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-13.png"
+              alt="Produto"
+            />
+            <p class="product-name">Camiseta CDE</p>
+            <p class="product-price">R$59.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-14.png"
+              alt="Produto"
+            />
+            <p class="product-name">Camiseta FGH</p>
+            <p class="product-price">R$59.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-15.png"
+              alt="Produto"
+            />
+            <p class="product-name">Brinquedo IFG</p>
+            <p class="product-price">R$59.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-16.png"
+              alt="Produto"
+            />
+            <p class="product-name">Antiguadade HIJ</p>
+            <p class="product-price">R$59.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-17.png"
+              alt="Produto"
+            />
+            <p class="product-name">Kit de VR</p>
+            <p class="product-price">R$59.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+
+          <div class="product-card">
+            <img
+              class="product-image"
+              src="../IMGs/products/p-18.png"
+              alt="Produto"
+            />
+            <p class="product-name">Fantasia</p>
+            <p class="product-price">R$59.99</p>
+            <a class="product-link" href="#">Ver Produto</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Rodapé da Página-->
+    <footer class="rodape">
+      <div class="rodape__elementos">
+        <div class="rodape-um">
+          <img class="cabecalho__joy" src="../IMGs/icons/Joystick.svg" alt="" />
+          <p class="cabecalho__nome">GWBR</p>
+          <p class="cabecalho__subnome">Geek</p>
+        </div>
+
+        <div class="rodape-dois">
+          <a href="#" class="rodape-links">Quem somos nós</a>
+          <a href="#" class="rodape-links">Política de privacidade</a>
+          <a href="#" class="rodape-links">Programa fidelidade</a>
+          <a href="#" class="rodape-links">Nossas lojas</a>
+          <a href="#" class="rodape-links">Quero ser franqueado</a>
+          <a href="#" class="rodape-links">Anuncie aqui</a>
+        </div>
+
+        <div class="rodape-tres">
+          <p class="rodape-faleconosco">Fale Conosco!</p>
+          <label for="name">Nome</label>
+          <input
+            class="rodape-campo campo-nome"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Seu Nome Completo"
+          />
+          <label for="mensagem">Adicione uma mensagem:</label>
+          <textarea
+            class="rodape-campo"
+            cols="30"
+            rows="5"
+            id="mensagem"
+            placeholder="Adicione sua Mensagem Aqui!"
+          ></textarea>
+          <input class="rodape-enviar" type="submit" value="Enviar Mensagem" />
+        </div>
+      </div>
+
+      <p class="rodape__desenvolvedor">
+        Desenvolvido por João Pedro do Carmo R. - GWBR Websites - 2022
+      </p>
+    </footer>
+  </body>
+</html>

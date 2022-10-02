@@ -1,0 +1,44 @@
+:root{
+    --fonte-padrao: 'Raleway', sans-serif;
+    --azul: #2A7AE4;
+    --azul-claro: #D4E4FA;
+    --azul-medio: #5595E9;
+    --branco: #FDFDFD;
+    --cinza-fundo: #E5E5E5;
+    --preto: #232323;
+    --links-tamanho: 19px;
+    --textos-tamanho: 22px;
+    --titulos-tamanho: 30px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--branco);
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .hide-sm{
+        display: none;
+    }
+
+    .show-sm{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .hide-tb{
+        display: none;
+    }
+
+    .show-tb{
+        display: block;
+    }
+}

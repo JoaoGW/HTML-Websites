@@ -1,0 +1,98 @@
+.banner{
+    width: 100%;
+}
+
+.banner__img{
+    background-repeat: no-repeat;
+    cursor: pointer;
+    object-fit: cover;
+    width: 100%;
+}
+
+.starwars, .console{
+    margin: 4em auto;
+    width: 80%;
+}
+
+.starwars__head, .console__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.starwars__title, .console__title{
+    color: var(--preto);
+    font-family: var(--fonte-padrao);
+    font-size: var(--titulos-tamanho);
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.starwars__link, .console__link{
+    color: var(--azul);
+    font-family: var(--fonte-padrao);
+    font-size: var(--links-tamanho);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.starwars__products, .console__products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-card{
+    height: 30%;
+    width: 16%;
+}
+
+.product-image{
+    border-radius: 3px;
+    height: 60%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.product-name,
+.product-price,
+.product-link{
+    color: var(--preto);
+    font-family: var(--fonte-padrao);
+    font-size: var(--textos-tamanho);
+    margin: 0.5em 0;
+    text-decoration: none;
+}
+
+.product-price,
+.product-link{
+    font-weight: 600;
+}
+
+.product-link{
+    color: var(--azul);
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .banner__img{
+        object-fit: contain;
+    }
+
+    .product-card{
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .banner__img{
+        object-fit: contain;
+    }
+
+    .starwars__products, .console__products{
+        justify-content: space-evenly;
+    }
+
+    .product-card{
+        width: 24%;
+    }
+}

@@ -1,0 +1,58 @@
+main{
+    background-color: var(--cinza-fundo);
+}
+
+.administrador{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 5em;
+    margin: 0 auto;
+}
+
+.adm__titulo{
+    text-align: center;
+    color: var(--preto);
+    font-size: var(--titulos-tamanho);
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.adm__inputs{
+    text-align: center;
+}
+
+.adm__linking,
+.adm__categoria,
+.adm__nome,
+.adm__preco,
+.adm__descricao,
+.adm__adicionar{
+    font-family: var(--fonte-padrao);
+    font-size: var(--links-tamanho);
+    height: 50px;
+    width: 60%;
+}
+
+.adm__linking,
+.adm__categoria,
+.adm__nome,
+.adm__preco,
+.adm__descricao{
+    border: 0.3px solid #CACACA;
+    border-bottom: 3px solid #CACACA;
+    margin-bottom: 1rem;
+}
+
+.adm__adicionar{
+    background: var(--azul);
+    border: none;
+    color: var(--branco);
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .administrador{
+        padding: 3em 0;
+    }
+}

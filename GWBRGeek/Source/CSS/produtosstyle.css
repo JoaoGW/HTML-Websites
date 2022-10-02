@@ -1,0 +1,71 @@
+main{
+    background-color: var(--cinza-fundo);
+}
+
+.produtos{
+    margin: 0 auto;
+    padding: 5em 0;
+    width: 80%;
+}
+
+.produtos__cabecalho{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.produtos__titulo{
+    color: var(--preto);
+    font-family: var(--fonte-padrao);
+    font-size: var(--titulos-tamanho);
+    font-weight: bold;
+}
+
+.produtos__adicionar{
+    background: var(--azul);
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    font-family: var(--fonte-padrao);
+    font-size: var(--links-tamanho);
+    height: 50px;
+    margin-bottom: 1.5em;
+    width: 15%;
+}
+
+.product-card{
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .starwars__products, .console__products{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .product-card{
+        margin-right: 1%;
+        width: 48%;
+    }
+
+    .produtos__adicionar{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .starwars__products, .console__products{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .product-card{
+        margin-right: 1%;
+        width: 24%;
+    }
+
+    .produtos__adicionar{
+        width: 30%;
+    }
+}

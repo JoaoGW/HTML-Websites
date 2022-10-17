@@ -1,0 +1,50 @@
+.cabecalho{
+    background: var(--azul);
+    height: 35%;
+}
+
+.nav__menu{
+    position: absolute;
+    z-index: 1;
+}
+
+.icones{
+    height: 19.2px;
+    width: 23px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 20px;
+}
+
+.icone__perfil{
+    width: 40px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+@media screen and (min-width: 768px){
+    .icones{
+        height: 30px;
+        width: 34px;
+    }
+
+    .icone__perfil{
+        margin-left: 300px;
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .icones{
+        height: 35px;
+        width: 40px;
+    }
+
+    .icone__perfil{
+        margin-left: 280px;
+        width: 52px;
+        height: 52px;
+    }
+}

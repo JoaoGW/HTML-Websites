@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/gwbr-logo-icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/rodape.css" />
+    <link rel="stylesheet" href="../css/cabecalho.css" />
+    <link rel="stylesheet" href="../css/mensagem.css" />
+    <link rel="stylesheet" href="../css/perfil.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Perfil | Adopet</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="../img/Vector 1.svg" class="forma__1" alt="" />
+      <img src="../img/Vector 4.svg" class="forma__4" alt="" />
+      <nav class="nav__menu">
+        <a href="../html/index.html"
+          ><img src="../img/Casa.svg" alt="Página Inicial" class="icones"
+        /></a>
+        <a href="./mensagem.html"
+          ><img src="../img/Mensagens.svg" alt="Contatar" class="icones"
+        /></a>
+        <a href="./perfil.html"
+          ><img src="../img/Usuário.png" alt="Meu Perfil" class="icone__perfil"
+        /></a>
+      </nav>
+    </header>
+
+    <main class="conteudo__perfil">
+      <p class="aviso">
+        Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua
+        mensagem.
+      </p>
+
+      <form>
+        <h1 class="titulo">Perfil</h1>
+        <p class="aviso__perfil">Foto</p>
+        <img class="foto__perfil" alt="Sua foto de perfil" src="../img/Usuário.png">
+        <a class="editar"><p>Clique na foto para editar</p></a>
+
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          id="nome"
+          class="input__padrao"
+          required
+          placeholder="Seu nome completo"
+        />
+
+        <label for="telefone">Telefone</label>
+        <input
+          type="tel"
+          id="telefone"
+          class="input__padrao"
+          required
+          placeholder="Seu telefone e/ou whatsapp"
+        />
+
+        <label for="cidade">Cidade</label>
+        <input
+          type="text"
+          id="cidade"
+          class="input__padrao"
+          required
+          placeholder="Sua cidade"
+        />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea
+          cols="40"
+          rows="10"
+          id="mensagem"
+          placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          class="input__mensagem"
+        ></textarea>
+
+        <input class="botao botao__forms" type="submit" value="Salvar" />
+    </main>
+
+    <footer class="rodape">
+        <p>2022 - Desenvolvido por GWBR</p>
+    </footer>
+  </body>
+</html>

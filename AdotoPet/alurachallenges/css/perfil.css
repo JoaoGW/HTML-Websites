@@ -1,0 +1,48 @@
+.foto__perfil{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 80px;
+    margin-bottom: 15px;
+    width: 80px;
+}
+
+.titulo{
+    font-family: 'Poppins', serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.editar{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: var(--vermelho);
+    font-family: 'Poppins', serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px){
+    .foto__perfil{
+        height: 100px;
+        width: 100px;
+    }
+
+    .titulo{
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .editar{
+        font-size: 17px;
+        line-height: 22px;
+    }
+}

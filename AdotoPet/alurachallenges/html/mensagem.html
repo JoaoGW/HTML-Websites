@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/gwbr-logo-icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/rodape.css" />
+    <link rel="stylesheet" href="../css/cabecalho.css" />
+    <link rel="stylesheet" href="../css/mensagem.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mensagem | Adopet</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img src="../img/Vector 1.svg" class="forma__1" alt="" />
+      <img src="../img/Vector 4.svg" class="forma__4" alt="" />
+      <nav class="nav__menu">
+        <a href="../html/index.html"
+          ><img src="../img/Casa.svg" alt="Página Inicial" class="icones"
+        /></a>
+        <a href="./mensagem.html"
+          ><img src="../img/Mensagens.svg" alt="Contatar" class="icones"
+        /></a>
+        <a href="./perfil.html"
+          ><img src="../img/Usuário.png" alt="Meu Perfil" class="icone__perfil"
+        /></a>
+      </nav>
+    </header>
+
+    <main class="conteudo__mensagem">
+      <p class="aviso">
+        Envie uma mensagem para a pessoa ou instituição que está cuidando do
+        animal:
+      </p>
+
+      <form>
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          id="nome"
+          class="input__padrao"
+          required
+          placeholder="Insira seu nome completo"
+        />
+
+        <label for="telefone">Telefone</label>
+        <input
+          type="tel"
+          id="telefone"
+          class="input__padrao"
+          required
+          placeholder="Insira seu telefone e/ou whatsapp"
+        />
+
+        <label for="animal">Nome do Animal</label>
+        <input
+          type="text"
+          id="animal"
+          class="input__padrao"
+          required
+          placeholder="Por qual animal você se interessou?"
+        />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea
+          cols="40"
+          rows="10"
+          id="mensagem"
+          placeholder="Escreva sua mensagem"
+          class="input__mensagem"
+        ></textarea>
+
+        <input class="botao botao__forms" type="submit" value="Enviar" />
+      </form>
+    </main>
+
+    <footer class="rodape">
+      <p>2022 - Desenvolvido por GWBR</p>
+    </footer>
+  </body>
+</html>

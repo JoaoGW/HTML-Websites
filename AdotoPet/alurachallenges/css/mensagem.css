@@ -1,0 +1,128 @@
+.conteudo__mensagem, .conteudo__perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.aviso{
+    color: var(--azul);
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 170px;
+    text-align: center;
+    width: 60vw;
+}
+
+.aviso__perfil{
+    color: var(--azul);
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 60vw;
+}
+
+form{
+    background: var(--cinza-claro);
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+label{
+    color: var(--azul);
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+label, .input__padrao{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.input__padrao{
+    background: #DCDCDC;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+}
+
+.input__mensagem{
+    background: #DCDCDC;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    height: 170px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding-left: 15px;
+    width: 300px;
+}
+
+textarea{
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 768px){
+    .aviso{
+        width: 70vw;
+        font-size: 23px;
+        line-height: 27px;
+        margin-top: 240px;
+    }
+
+    form{
+        width: 70vw;
+    }
+
+    label{
+        font-size: 20px;
+        line-height: 27px;
+        margin-left: 7px;
+    }
+
+    .input__padrao{
+        width: 95%;
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .input__mensagem{
+        font-size: 19px;
+        line-height: 22px;
+        width: 95%;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    label{
+        margin-left: 19px;
+    }
+}

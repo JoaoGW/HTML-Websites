@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/gwbr-logo-icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/rodape.css" />
+    <link rel="stylesheet" href="../css/cabecalho.css" />
+    <link rel="stylesheet" href="../css/conteudo-cadastro.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cadastro | Adopet</title>
+  </head>
+
+  <body class="corpo">
+    <header class="cabecalho">
+      <img src="../img/Vector 1.svg" class="forma__1" alt="" />
+      <img src="../img/Vector 4.svg" class="forma__4" alt="" />
+      <img src="../img/Patas.svg" class="patas" alt="" />
+      <nav class="nav__menu">
+        <a href="../html/index.html"
+          ><img src="../img/Casa.svg" alt="Página Inicial" class="icones"
+        /></a>
+        <a href="./mensagem.html"
+          ><img src="../img/Mensagens.svg" alt="Contatar" class="icones"
+        /></a>
+      </nav>
+    </header>
+
+    <main class="conteudo__cadastro">
+      <img
+        class="logo__paginas"
+        alt="Logo da Adopet"
+        src="../img/Logos-03.svg"
+      />
+      <p class="pergunta">
+        Ainda não tem cadastro?<br /><br />Então, antes de buscar seu melhor
+        amigo, precisamos de alguns dados:
+      </p>
+
+      <form>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="input__padrao"
+          required
+          placeholder="Escolha seu melhor email"
+        />
+
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          id="nome"
+          class="input__padrao"
+          required
+          placeholder="Digite seu nome completo"
+        />
+
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          id="senha"
+          class="input__padrao input__senha"
+          required
+          placeholder="Crie uma senha"
+        />
+
+        <label for="confirmasenha">Confirme sua senha</label>
+        <input
+          type="password"
+          id="confirmasenha"
+          class="input__padrao input__senha"
+          required
+          placeholder="Repita a senha criada acima"
+        />
+
+        <input class="botao botao__forms" type="submit" value="Cadastrar" />
+      </form>
+    </main>
+
+    <footer class="rodape">
+      <p>2022 - Desenvolvido por GWBR</p>
+    </footer>
+  </body>
+</html>

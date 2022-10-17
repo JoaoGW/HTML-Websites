@@ -1,0 +1,260 @@
+:root{
+    --azul: #3772FF;
+    --cinza-claro: #F6F6F6;
+    --cinza-escuro: #737380;
+    --cinza-medio: #BCBCBC;
+    --creme: #FCF0E3;
+    --verde: #36D6AD;
+    --vermelho: #FC7071;
+    --itens: #DCDCDC;
+}
+
+.logo{
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 300px;
+}
+
+.logo__paginas{
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 280px;
+}
+
+.botao{
+    background: #FC7071;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 2px 2px #3c3c3f;
+    color: white;
+    font-family: 'Poppins', serif;
+    font-weight: bold;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 170px;
+}
+
+.botao:hover{
+    background: #FF9D9E;
+    transition: 1s all;
+}
+
+.botao__forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FC7071;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 2px 2px #3c3c3f;
+    color: white;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 170px;
+}
+
+.botao__forms:hover{
+    background: #FF9D9E;
+    transition: 1s all;
+}
+
+.botao__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FC7071;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 2px 2px #3c3c3f;
+    color: white;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 170px;
+}
+
+.botao__menu:hover{
+    background: #FF9D9E;
+    transition: 1s all;
+}
+
+.forma__1{
+    height: 273.52px;
+    left: -5px;
+    position: absolute;
+    top: 0px;
+    width: 333.25px;
+}
+
+.forma__2{
+    height: 415px;
+    left: 306px;
+    position: absolute;
+    top: 199px;
+    width: 84.03px;
+}
+
+.forma__4{
+    height: 295px;
+    position: absolute;
+    left: -0.5px;
+    top: 0px;
+    width: 352.11px;
+    z-index: 1;
+}
+
+.patas{
+    height: 243.41px;
+    left: 225px;
+    position: absolute;
+    top: -17px;
+    width: 189.96px;
+    z-index: 2;
+}
+
+.corpo{
+    background: var(--cinza-claro);
+}
+
+.text{
+    color: var(--azul);
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 21px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px){
+    .logo{
+        height: 300px;
+        margin-top: 150px;
+        width: 400px;
+    }
+
+    .forma__1{
+        height: 434.85px;
+        left: -1.17px;
+        top: -1px;
+        width: 529.81px;
+    }
+
+    .forma__2 {
+        height: 664px;
+        left: 634px;
+        top: 268px;
+        width: 134.45px;
+    }
+
+    .forma__4{
+        height: 469px;
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 559.8px;
+        z-index: 1;
+    }
+
+    .botao__forms{
+        font-size: 20px;
+        height: 48px;
+        line-height: 26px;
+        width: 230px;
+        margin-top: 40px;
+    }
+
+    .botao__menu{
+        font-size: 20px;
+        height: 48px;
+        line-height: 26px;
+        width: 340px;
+    }
+
+    .patas{
+        position: absolute;
+        width: 292px;
+        height: 374.15px;
+        left: 544px;
+        top: -36px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .logo{
+        margin-top: 80px;
+    }
+
+    .logo__paginas{
+        height: 220px;
+        width: 320px;
+    }
+
+    .forma__2{
+        height: 664px;
+        left: 1306px;
+        top: 180px;
+        width: 134.45px;
+    }
+
+    .botao__menu{
+        height: 55px;
+        width: 480px;
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .patas{
+        position: absolute;
+        width: 317px;
+        height: 407px;
+        left: 1146px;
+        top: -18px;
+    }
+
+    .botao__forms{
+        font-size: 23px;
+        height: 51px;
+        line-height: 29px;
+        width: 260px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .patas{
+        position: absolute;
+        width: 317px;
+        height: 407px;
+        left: 1585px;
+        top: -18px;
+    }
+
+    .forma__2{
+        height: 664px;
+        left: 1767px;
+        top: 180px;
+        width: 134.45px;
+    }
+}

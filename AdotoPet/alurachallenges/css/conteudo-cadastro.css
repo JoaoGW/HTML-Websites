@@ -1,0 +1,106 @@
+.conteudo__cadastro{
+    display: flex;
+    flex-direction: column;
+}
+
+.pergunta{
+    color: var(--azul);
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 21px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+form{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+label{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+label, .input__padrao{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input__padrao{
+    background: #DCDCDC;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    height: 40px;
+    width: 300px;
+}
+
+.esquecisenha{
+    display: flex;
+    flex-direction: column;
+    color: var(--vermelho);
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .pergunta{
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    label, .input__padrao{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .input__padrao{
+        height: 50px;
+        width: 380px;
+    }
+
+    .esquecisenha{
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .pergunta{
+        font-size: 26px;
+        line-height: 27px;
+    }
+
+    label, .input__padrao{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .input__padrao{
+        height: 60px;
+        width: 800px;
+    }
+
+    .esquecisenha{
+        font-size: 25px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .input__senha{
+        width: 500px;
+    }
+}
